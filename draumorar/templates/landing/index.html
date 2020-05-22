@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block style %}
+    <link rel="stylesheet" href="{% static "css/home.css" %}">
+{% endblock %}
+
+{% block content %}
+    <div class="parallax-container">
+        <div class="parallax">
+
+{#            <img src="#" class="place_higher">#}
+        </div>
+    </div>
+    <div class="content-background">
+        <div class="container">
+            <div class="row">
+             <h1>Stór forsíðumynd</h1>
+                <p>{{ user }}</p>
+                <div class="col s12 m12 l8">
+                    <h2>Dálkur 1</h2>
+                    <div class="row">
+                        Eitthvað include hérna
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <h2>Dálkur 2</h2>
+                    <div class="row">
+                        Eitthvað include hérna
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

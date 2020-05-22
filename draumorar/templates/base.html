@@ -1,0 +1,52 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Draumórar</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Heiðar Sigurjónsson">
+    <meta name="description" content="Draumórar">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+{#      <link type="text/css" rel="stylesheet" href="css/materialize/materialize.min.css"  media="screen,projection"/>#}
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+{#    <link rel="stylesheet" href="{% static "css/main.css" %}">#}
+    <link rel="shortcut icon" href="{% static 'images/sitelogo3.png' %}">
+
+    {% block style %}
+    {% endblock %}
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+    <header>
+        {% include 'navbar.html' %}
+    </header>
+
+    <main class="content-background">
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        {% include 'footer.html' %}
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+{#    <script src="{% static "js/main.js" %}"></script>#}
+    {% block js %}
+    {%endblock%}
+
+</body>
+</html>
