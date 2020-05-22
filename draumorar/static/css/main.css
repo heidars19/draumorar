@@ -1,0 +1,16 @@
+
+
+.nav-wrapper {
+    border-color: pink;
+    border-style: solid;
+    border-width: 1px;
+    /*pink lighten-5*/
+}
+
+nav {
+    position: fixed;
+}
+
+nav ul li a{
+  color: black;
+}

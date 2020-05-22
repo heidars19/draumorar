@@ -1,36 +1,72 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block style %}
-    <link rel="stylesheet" href="{% static "css/home.css" %}">
+    <link rel="stylesheet" href="{% static "css/landing.css" %}">
 {% endblock %}
 
 {% block content %}
     <div class="parallax-container">
-        <div class="parallax">
-
-{#            <img src="#" class="place_higher">#}
+        <div class="parallax" style="background-image: url({% static 'images/slide1b.jpg' %});">
+            Einhver texti
+{#            <img src="{% static 'images/slide1b.jpg' %}" class="responsive-img">#}
         </div>
+
     </div>
-    <div class="content-background">
-        <div class="container">
-            <div class="row">
-             <h1>Stór forsíðumynd</h1>
-                <p>{{ user }}</p>
-                <div class="col s12 m12 l8">
+    <div class="testerino"><h2>Þetta er testerinn</h2><p>Einhver paragraph!</p></div>
+        <div class="container topmargin">
+            <div class="row topmargin">
+
+{#                <h1>Stór forsíðumynd</h1>#}
+{#                <p>{{ user }}</p>#}
+                <div class="col s7 m7 l7">
                     <h2>Dálkur 1</h2>
-                    <div class="row">
-                        Eitthvað include hérna
+                    <div class="section">
+                        <p>Eitthvað include hérna</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut urna varius mauris vulputate lacinia a in erat. Suspendisse non lorem a lacus porttitor imperdiet. Nullam dui sem, porttitor quis aliquet non, laoreet vitae nunc. Ut sit amet enim arcu. Aliquam id convallis felis. Nulla viverra feugiat pulvinar. Donec non aliquam enim. Donec dapibus porttitor accumsan. Pellentesque odio elit, ultricies ac luctus vitae, tempus quis enim. Duis efficitur nisi quam, nec rhoncus velit vulputate non. Nam at sodales leo. Mauris vitae dictum justo. Nullam eu vestibulum libero, ut sollicitudin est. Vivamus elementum, odio vel ultrices aliquam, felis lectus auctor odio, et tincidunt lectus diam eget est. In erat elit, cursus ut egestas nec, tempor mollis dolor.</p>
+                        <p>Aenean condimentum vel risus non consectetur. Proin urna ipsum, congue nec nisl ac, posuere lobortis ex. Aliquam semper ex quis nibh euismod venenatis. Aenean et bibendum odio. Suspendisse a maximus ipsum. Vestibulum convallis nunc ante, a imperdiet dolor condimentum non. Maecenas sit amet enim mi. Phasellus a eros pharetra, tincidunt sapien ut, viverra ipsum. Maecenas congue turpis sit amet purus ullamcorper hendrerit. Nunc tortor felis, dapibus eget arcu vel, hendrerit porttitor leo. Donec eget pulvinar orci. Nullam malesuada ante a mi cursus egestas. Praesent quis mi varius, consequat est at, vulputate metus. Aenean et nisl eu nisi imperdiet molestie.</p>
                     </div>
                 </div>
-                <div class="col s12 m12 l4">
+                <div class="col s4 m4 l4 offset-s1 offset-m1 offset-l1">
                     <h2>Dálkur 2</h2>
-                    <div class="row">
-                        Eitthvað include hérna
+                    <div class="section">
+                        <p>Eitthvað include hérna</p>
+                        <p>Mauris iaculis luctus massa in laoreet. Cras vitae elementum ex. Suspendisse sagittis tortor turpis, et egestas eros consequat vitae. Aliquam elementum ultricies molestie. Curabitur iaculis felis at nulla condimentum, sed auctor diam dignissim. Donec vitae diam justo. Nam orci enim, pulvinar id molestie quis, finibus vitae nibh. Mauris id tellus nec diam rutrum fermentum nec ut ipsum.</p>
+                        <p>Pellentesque in suscipit sapien. Pellentesque blandit odio metus. Donec commodo tincidunt dui. Etiam eu nibh nunc. Vestibulum gravida ante vitae volutpat aliquam. Ut felis nunc, sodales quis mauris non, eleifend dapibus felis. Nulla facilisi. Nam at viverra odio. Sed sit amet finibus ante. Praesent magna tellus, mattis eu porta ac, dignissim at lacus. Proin euismod, ex sit amet tincidunt vehicula, turpis ex hendrerit nulla, in condimentum lorem nisl a lacus. Cras orci enim, commodo id elementum id, tincidunt sit amet leo.</p>
+                        <p>Duis accumsan et ipsum et cursus. Praesent pretium magna non urna mollis cursus. Proin ornare vulputate diam eget rutrum. Sed at eleifend lorem. Vivamus elementum faucibus nulla, non elementum mauris lobortis non. Sed tincidunt vel urna quis porttitor. Cras ultricies tincidunt ornare. Nullam non aliquet augue. Donec ex est, sagittis a sapien pulvinar, volutpat gravida nibh. Ut et rhoncus enim. Fusce blandit interdum ligula sollicitudin fermentum. Donec vehicula eros elementum, vulputate dolor vel, iaculis metus. Vestibulum consectetur, sapien sit amet imperdiet pretium, nunc nibh congue est, id finibus nisi ligula nec ante.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
 </div>
 
+            <div class="container">
+            <div class="row topmargin1">
+
+{#                <h1>Stór forsíðumynd</h1>#}
+{#                <p>{{ user }}</p>#}
+                <div class="col s7 m7 l7">
+                    <h2>Dálkur 1</h2>
+                    <div class="section2">
+                        <p>Eitthvað include hérna</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut urna varius mauris vulputate lacinia a in erat. Suspendisse non lorem a lacus porttitor imperdiet. Nullam dui sem, porttitor quis aliquet non, laoreet vitae nunc. Ut sit amet enim arcu. Aliquam id convallis felis. Nulla viverra feugiat pulvinar. Donec non aliquam enim. Donec dapibus porttitor accumsan. Pellentesque odio elit, ultricies ac luctus vitae, tempus quis enim. Duis efficitur nisi quam, nec rhoncus velit vulputate non. Nam at sodales leo. Mauris vitae dictum justo. Nullam eu vestibulum libero, ut sollicitudin est. Vivamus elementum, odio vel ultrices aliquam, felis lectus auctor odio, et tincidunt lectus diam eget est. In erat elit, cursus ut egestas nec, tempor mollis dolor.</p>
+                        <p>Aenean condimentum vel risus non consectetur. Proin urna ipsum, congue nec nisl ac, posuere lobortis ex. Aliquam semper ex quis nibh euismod venenatis. Aenean et bibendum odio. Suspendisse a maximus ipsum. Vestibulum convallis nunc ante, a imperdiet dolor condimentum non. Maecenas sit amet enim mi. Phasellus a eros pharetra, tincidunt sapien ut, viverra ipsum. Maecenas congue turpis sit amet purus ullamcorper hendrerit. Nunc tortor felis, dapibus eget arcu vel, hendrerit porttitor leo. Donec eget pulvinar orci. Nullam malesuada ante a mi cursus egestas. Praesent quis mi varius, consequat est at, vulputate metus. Aenean et nisl eu nisi imperdiet molestie.</p>
+                    </div>
+                </div>
+                <div class="col s4 m4 l4 offset-s1 offset-m1 offset-l1">
+                    <h2>Dálkur 2</h2>
+                    <div class="section2">
+                        <p>Eitthvað include hérna</p>
+                        <p>Mauris iaculis luctus massa in laoreet. Cras vitae elementum ex. Suspendisse sagittis tortor turpis, et egestas eros consequat vitae. Aliquam elementum ultricies molestie. Curabitur iaculis felis at nulla condimentum, sed auctor diam dignissim. Donec vitae diam justo. Nam orci enim, pulvinar id molestie quis, finibus vitae nibh. Mauris id tellus nec diam rutrum fermentum nec ut ipsum.</p>
+                        <p>Pellentesque in suscipit sapien. Pellentesque blandit odio metus. Donec commodo tincidunt dui. Etiam eu nibh nunc. Vestibulum gravida ante vitae volutpat aliquam. Ut felis nunc, sodales quis mauris non, eleifend dapibus felis. Nulla facilisi. Nam at viverra odio. Sed sit amet finibus ante. Praesent magna tellus, mattis eu porta ac, dignissim at lacus. Proin euismod, ex sit amet tincidunt vehicula, turpis ex hendrerit nulla, in condimentum lorem nisl a lacus. Cras orci enim, commodo id elementum id, tincidunt sit amet leo.</p>
+                        <p>Duis accumsan et ipsum et cursus. Praesent pretium magna non urna mollis cursus. Proin ornare vulputate diam eget rutrum. Sed at eleifend lorem. Vivamus elementum faucibus nulla, non elementum mauris lobortis non. Sed tincidunt vel urna quis porttitor. Cras ultricies tincidunt ornare. Nullam non aliquet augue. Donec ex est, sagittis a sapien pulvinar, volutpat gravida nibh. Ut et rhoncus enim. Fusce blandit interdum ligula sollicitudin fermentum. Donec vehicula eros elementum, vulputate dolor vel, iaculis metus. Vestibulum consectetur, sapien sit amet imperdiet pretium, nunc nibh congue est, id finibus nisi ligula nec ante.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+{% endblock %}
+
+{% block js %}
+    <script src="{% static "js/landing.js" %}"></script>
 {% endblock %}
