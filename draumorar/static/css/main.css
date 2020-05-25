@@ -1,5 +1,22 @@
 
 
+#background-image {
+    opacity:1;
+    position:fixed;
+    top:65px;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index:0;
+    background-repeat: no-repeat;
+    transition: opacity 0.8s;
+    background-blend-mode: soft-light;
+}
+#content {
+    z-index:1;
+    position:relative;
+}
+
 .nav-wrapper {
     border-color: pink;
     border-style: solid;

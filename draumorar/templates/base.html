@@ -32,7 +32,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-
+<div id="background-image" style="background-image: url({% static 'images/slide1b.jpg' %});"></div>
+<div id="foreground-concent">
+{#        style="background-image: url({% static 'images/slide1b.jpg' %});">#}
     <header>
         {% include 'navbar.html' %}
     </header>
@@ -53,5 +55,5 @@
     {% block js %}
     {%endblock%}
 
-</body>
+</div></body>
 </html>
