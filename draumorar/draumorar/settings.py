@@ -25,7 +25,7 @@ SECRET_KEY = '#g3-v80ow&xz6dz$=p^tb7_8@$a(2o^tc3fxryffuuk+#$s7&9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://draumorar.herokuapp.com/', 'localhost']
 
 
 # Application definition
