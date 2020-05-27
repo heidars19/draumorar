@@ -3,10 +3,15 @@
 #background-image {
     opacity:1;
     position:fixed;
-    top:65px;
-    left:0;
+    /*top:65px;*/
+    /*left: 0;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height:100%;
     width:100%;
+    background-position: 100% 65px;
     z-index:0;
     background-repeat: no-repeat;
     transition: opacity 0.8s;

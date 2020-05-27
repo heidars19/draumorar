@@ -22,7 +22,7 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="{% static "css/main.css" %}">
-    <link rel="shortcut icon" href="{% static 'images/face-right.jpg' %}">
+    <link rel="shortcut icon" href="{% static 'images/sitelogo3.png' %}">
     <link rel="icon" href="{% static 'images/favicon.ico' %}">
 
     {% block style %}
@@ -32,9 +32,10 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-<div id="background-image" style="background-image: url({% static 'images/slide1b.jpg' %});"></div>
+<div id="background-image" style="background-image: url({% static 'images/face-right.jpg' %});"></div>
+{#<div id="background-image" style="background-image: url({% static 'images/slide1b.jpg' %});"></div>#}
 <div id="foreground-concent">
-{#        style="background-image: url({% static 'images/slide1b.jpg' %});">#}
+
     <header>
         {% include 'navbar.html' %}
     </header>

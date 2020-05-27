@@ -1,54 +1,19 @@
 
 
-  /*<div class="content-background">*/
-  /*      <div class="container">*/
-  /*          <div class="row">*/
-  /*              <div class="col s7 m7 l7">*/
 
-.container {
-    /*background: rgba(ff, ff, ff, ff.3)*/
-    /*position: absolute;*/
-  /*background: transparent;*/
-}
-
-  .testerino {
-    /*background: transparent;*/
-    background-color: transparent;
-  }
-.h2 {
-    background-color: transparent;
-}
-
-.topmargin {
-  fill-opacity: 100%;
-    /*background: rgba(ff, ff, ff, ff.3)*/
-  /*position: absolute;*/
-  /*background: transparent;*/
-  /*  margin-top: 450px;*/
-  /*  height: 600px;*/
-  /*min-height: 500px;*/
-  /*  padding-bottom: 400px;*/
-}
-
-.section {
-  /*height: 600px;*/
-}
-
-.col {
-
-    /*background: rgba(ff, ff, ff, ff.3)*/
-}
 
 .parallax {
   /*opacity: 50%;*/
   /*opacity: 0.3;*/
-  transition: opacity 0.3s;
-  background-blend-mode: hard-light;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 100% 60px !important;
-  background-repeat: no-repeat;
-  height: 100%;
+  /*transition: opacity 0.3s;*/
+  /*background-blend-mode: hard-light;*/
+  /*background-size: 1%;*/
+  /*background-attachment: fixed;*/
+  /*background-position: 100% 60px !important;*/
+  /*background-position: center left;*/
+  /*background-position: 90% 95%;*/
+  /*background-repeat: no-repeat;*/
+  /*height: 100%;*/
 
 }
 
@@ -58,28 +23,28 @@
 }
 
  /*Makes frontpage image and it's container disappear on screens less then 650px*/
-@media screen and (max-width: 750px) {
-  .parallax {
-    background-position: 97% 60px !important;
-  }
-  .parallax-container {
-    /*height: 100%;*/
-  }
-}
+/*@media screen and (max-width: 750px) {*/
+/*  .parallax {*/
+/*    background-position: 97% 60px !important;*/
+/*  }*/
+/*  .parallax-container {*/
+/*    !*height: 100%;*!*/
+/*  }*/
+/*}*/
 
-@media screen and (max-width: 700px) {
-  .parallax {
-    background-position: 95% 60px !important;
-  }
-  .parallax-container {
-    /*height: 100%;*/
-  }
-}
-@media screen and (max-width: 650px) {
-  .parallax {
-    background-position: 92% 60px !important;
-  }
-  .parallax-container {
-    /*height: 100%;*/
-  }
-}
+/*@media screen and (max-width: 700px) {*/
+/*  .parallax {*/
+/*    background-position: 95% 60px !important;*/
+/*  }*/
+/*  .parallax-container {*/
+/*    !*height: 100%;*!*/
+/*  }*/
+/*}*/
+/*@media screen and (max-width: 650px) {*/
+/*  .parallax {*/
+/*    background-position: 92% 60px !important;*/
+/*  }*/
+/*  .parallax-container {*/
+/*    !*height: 100%;*!*/
+/*  }*/
+/*}*/
