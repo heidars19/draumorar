@@ -1,1 +1,1 @@
-web: gunicorn draumorar.wsgi
+web: gunicorn draumorar/settings.wsgi
