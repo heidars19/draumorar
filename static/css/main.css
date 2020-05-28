@@ -1,6 +1,7 @@
 
 
 #background-image {
+    background-image: url('../images/face-right.jpg');
     opacity:1;
     position:fixed;
     /*top:65px;*/
@@ -17,6 +18,15 @@
     transition: opacity 0.8s;
     background-blend-mode: soft-light;
 }
+
+/*@media only screen and (max-width: 767px) {*/
+/*  #background-image {*/
+/*    !* The file size of this background image is 93% smaller*/
+/*       to improve page load speed on mobile internet connections *!*/
+/*    !*background-image: url(/images/background-photo-mobile-devices.jpg);*!*/
+/*  }*/
+/*}*/
+
 #content {
     z-index:1;
     position:relative;
