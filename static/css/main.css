@@ -41,6 +41,12 @@
     /*pink lighten-5*/
 }
 
+.parallax-section {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
 .height-200 {
     height: 200px;
 }

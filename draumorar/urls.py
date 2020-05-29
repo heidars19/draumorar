@@ -23,6 +23,7 @@ urlpatterns = [
     path('dermatude/', include('dermatude.urls')),
     path('orlitamedferd/', include('orlitamedferd.urls')),
     path('verdskra/', include('verdskra.urls')),
+    path('bokun/', include('bokun.urls')),
 
     path('css/<str:filename>.css', include('landing.urls')),
 ]

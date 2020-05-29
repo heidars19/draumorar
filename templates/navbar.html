@@ -11,6 +11,7 @@
             <li><a href="{% url "orlitamedferd_index" %}">ÖRLITAMEÐFERÐ</a></li>
             <li><a href="{% url "dermatude_index" %}">DERMATUDE </a></li>
             <li><a href="{% url "verdskra_index" %}">VERÐSKRÁ</a></li>
+            <li><a href="{% url "bokun_index" %}">PANTA TÍMA</a></li>
         </ul>
 
     </div>
@@ -21,9 +22,13 @@
 
     <ul class="sidenav" id="mobile-dropdown">
 
-        <li><a href="{% url "landing_index" %}">Heim</a></li>
+        <li class="pink lighten-3"><a class="white-text" href="{% url "landing_index" %}">HEIM</a></li>
         <div class="seperator"></div>
-        <li><a href="{% url "orlitamedferd_index" %}">ÖRLITAMEÐFERÐ</a></li>
-        <li><a href="{% url "dermatude_index" %}">DERMATUDE </a></li>
-        <li><a href="{% url "verdskra_index" %}">VERÐSKRÁ</a></li>
+        <li><a href="{% url "bokun_index" %}">PANTA TÍMA</a></li>
+        <div class="seperator"></div>
+
+
+        <li class="indent-links"><a href="{% url "orlitamedferd_index" %}">ÖRLITAMEÐFERÐ</a></li>
+        <li class="indent-links"><a href="{% url "dermatude_index" %}">DERMATUDE </a></li>
+        <li class="indent-links"><a href="{% url "verdskra_index" %}">VERÐSKRÁ</a></li>
     </ul>
