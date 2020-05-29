@@ -20,11 +20,11 @@ Personal project for Heiðar Sigurjónsson
 
 # Heroku commands
 1. Install heroku CLI
-2. $ heroku --version
-3. $ heroku login
-4. $ heroku git:remote -a draumorar
+2. `heroku --version`
+3. `heroku login`
+4. `heroku git:remote -a draumorar`
 
 # Deploying
-$ git push heroku master
+`git push heroku master`
 
 Everything should work from here on out!
