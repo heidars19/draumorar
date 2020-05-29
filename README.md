@@ -13,8 +13,9 @@ Personal project for Heiðar Sigurjónsson
 3. Activate the virtual environment `source venv/bin/activate`
 4. Install Django `pip install django`
 5. Install Postgres support `pip install psycopg2`
-<!-- 5. Install Bcrypt `pip install bcrypt` -->
-6. Run `python manage.py runserver`
-7. Open your web browser on localhost:8000
+5. Install Django-Heroku `pip install django-heroku`
+6. Install gUnicorn `pip install gunicorn`
+8. Run `python manage.py runserver`
+9. Open your web browser on localhost:8000
 
 Everything should work from here on out!

@@ -1,7 +1,9 @@
 
 
 #background-image {
-    background-image: url('../images/face-right.jpg');
+    /*background-color: #79aec8;*/
+    background-image: url('../images/left_bottom_face.png');
+
     opacity:1;
     position:fixed;
     /*top:65px;*/
@@ -28,7 +30,7 @@
 /*}*/
 
 #content {
-    z-index:1;
+    z-index:10;
     position:relative;
 }
 
@@ -39,9 +41,17 @@
     /*pink lighten-5*/
 }
 
+.height-200 {
+    height: 200px;
+}
+.height-750 {
+    height: 750px;
+}
 nav {
+    float: top;
     position: fixed;
 }
+
 
 nav ul li a{
   color: black;

@@ -20,6 +20,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('landing.urls')),
     path('login/', include('login.urls')),
+    path('dermatude/', include('dermatude.urls')),
+    path('orlitamedferd/', include('orlitamedferd.urls')),
+    path('verdskra/', include('verdskra.urls')),
 
     path('css/<str:filename>.css', include('landing.urls')),
 ]
