@@ -29,15 +29,16 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-<div id="background-image"></div>
-{#<div id="background-image" style="background-image: url({% static 'images/face-right.jpg' %});"></div>#}
-{#<div id="background-image" style="background-image: url({% static 'images/slide1b.jpg' %});"></div>#}
-<div id="foreground-concent">
+
 
     <header>
         {% include 'navbar.html' %}
     </header>
 
+    <div class="section parallax-section height-under-navbar">
+    </div>
+
+<div id="foreground-concent">
     <main class="content-background">
         {% block content %}
         {% endblock %}
@@ -56,9 +57,9 @@
     -->
 
     <script src="{% static "js/main.js" %}"></script>
-
+</div>
     {% block js %}
     {% endblock %}
-</div>
+
 </body>
 </html>

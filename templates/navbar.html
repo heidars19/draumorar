@@ -1,7 +1,8 @@
 {% load static %}
 
-<nav class="nav-extended z-depth-4">
-    <div class="nav-wrapper white">
+<div class="nav-fixed">
+    <nav>
+    <div class="nav-wrapper">
         <a href="{% url "landing_index" %}" class="brand-logo">
             <img border="0" alt="Draumórar" src="{% static "images/sitelogo3.png" %}" width="135px" ">
         </a>
@@ -17,6 +18,7 @@
 
     </div>
 </nav>
+</div>
 
 
 <!-- Navbar that gets activated on smaller screens -->
