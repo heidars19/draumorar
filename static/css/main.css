@@ -35,17 +35,15 @@
 }
 
 .nav-wrapper {
-    border-color: pink;
+    border-color: blue lighten-3;
     border-style: solid;
-    border-width: 1px;
-    /*pink lighten-5*/
+    border-width: 0px;
 }
 
 .parallax-section {
     padding-top: 0;
     padding-bottom: 0;
 }
-
 
 .height-200 {
     height: 200px;
@@ -56,9 +54,22 @@
 nav {
     float: top;
     position: fixed;
+    background-color: #fcf4fc;
 }
 
 
-nav ul li a{
-  color: black;
+
+
+
+
+/*########################
+#### FOOTER ######
+########################*/
+
+#right-links {
+    text-align: right;
+}
+
+.page-footer {
+    background-color: #fcf4fc;
 }

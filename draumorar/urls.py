@@ -24,6 +24,7 @@ urlpatterns = [
     path('orlitamedferd/', include('orlitamedferd.urls')),
     path('verdskra/', include('verdskra.urls')),
     path('bokun/', include('bokun.urls')),
+    path('plasmapen/', include('plasmapen.urls')),
 
     path('css/<str:filename>.css', include('landing.urls')),
 ]

@@ -6,10 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 $(document).ready(function(){
     $('.parallax').parallax();
+    $('.tabs').tabs();
 
-});
-
-$(document).ready(function() {
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1) {
             $("#background-image").css({"opacity": "0.3"})

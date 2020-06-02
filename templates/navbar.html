@@ -8,14 +8,15 @@
         <a href="#" data-target="mobile-dropdown" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
 
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="{% url "orlitamedferd_index" %}">ÖRLITAMEÐFERÐ</a></li>
-            <li><a href="{% url "dermatude_index" %}">DERMATUDE </a></li>
-            <li><a href="{% url "verdskra_index" %}">VERÐSKRÁ</a></li>
-            <li><a href="{% url "bokun_index" %}">PANTA TÍMA</a></li>
+            <li><a class="indigo-text" href="{% url "orlitamedferd_index" %}">ÖRLITAMEÐFERÐ</a></li>
+            <li><a class="indigo-text" href="{% url "dermatude_index" %}">DERMATUDE</a></li>
+            <li><a class="indigo-text" href="{% url "plasmapen_index" %}">PLASMA PEN </a></li>
+            <li><a class="indigo-text" href="{% url "verdskra_index" %}">VERÐSKRÁ</a></li>
+            <li><a class="indigo-text" href="{% url "bokun_index" %}">PANTA TÍMA</a></li>
         </ul>
 
     </div>
-
+</nav>
 
 
 <!-- Navbar that gets activated on smaller screens -->
@@ -30,5 +31,6 @@
 
         <li class="indent-links"><a href="{% url "orlitamedferd_index" %}">ÖRLITAMEÐFERÐ</a></li>
         <li class="indent-links"><a href="{% url "dermatude_index" %}">DERMATUDE </a></li>
+        <li class="indent-links"><a href="{% url "plasmapen_index" %}">PLASMA PEN </a></li>
         <li class="indent-links"><a href="{% url "verdskra_index" %}">VERÐSKRÁ</a></li>
     </ul>

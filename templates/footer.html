@@ -1,27 +1,35 @@
-<footer class="page-footer pink lighten-5">
+{% load static %}
+
+<footer class="page-footer">
     <div class="container">
         <div class="row">
-            <div class="col l4 s12">
+
+            <div class="col l3 s12">
                 <ul>
                     <li><a class="grey-text text-darken-4" href="#">UM OKKUR</a></li>
-                    <li><a class="grey-text text-darken-4" href="#">HAFÐU SAMBAND</a></li>
+                    <li><a class="grey-text text-darken-4" href="mailto:draumorar@draumorar.is">HAFÐU SAMBAND</a></li>
                     <li><a class="grey-text text-darken-4" href="#">SKILMÁLAR</a></li>
                 </ul>
             </div>
 
-
-            <div class="col l4 s12">
-                <ul>
-                    <li class="grey-text text-darken-4" align="center">Text content of Draumórar is available under the <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons 3.0 License</a>. You can copy it freely, but indicate the origin and keep the license.</li>
-                </ul>
+            <div class="col l5 s12">
+                <p class="grey-text text-darken-4" align="center">Text content of Draumórar is available under the <a class="indogo-text" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons 3.0 License</a>. You can copy it freely, but indicate the origin and keep the license.</p>
             </div>
 
-
+            <div class="col l4 s12">
+                <ul id="right-links">
+                    <li><a class="indigo-text" href="{% url "orlitamedferd_index" %}">ÖRLITAMEÐFERÐ</a></li>
+                    <li><a class="indigo-text" href="{% url "dermatude_index" %}">DERMATUDE </a></li>
+                    <li><a class="indigo-text" href="{% url "plasmapen_index" %}">PLASMA PEN </a></li>
+                    <li><a class="indigo-text" href="{% url "verdskra_index" %}">VERÐSKRÁ</a></li>
+                    <li><a class="indigo-text" href="{% url "bokun_index" %}">PANTA TÍMA</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="footer-copyright pink lighten-4">
+    <div class="footer-copyright pink lighten-5 indigo-text">
         <div class="container">
-            <p><a href="#">Some minor extra stuff</a></p>
+            <p><a class="indigo-text text-darken-4" href="#!">Some minor extra stuff</a></p>
         </div>
     </div>
 </footer>
