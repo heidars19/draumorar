@@ -2,22 +2,23 @@
 
 <div class="nav-fixed">
     <nav>
-    <div class="nav-wrapper">
-        <a href="{% url "landing_index" %}" class="brand-logo">
-            <img border="0" alt="Draumórar" src="{% static "images/sitelogo3.png" %}" width="135px" ">
-        </a>
-        <a href="#" data-target="mobile-dropdown" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+        <div class="nav-wrapper">
+            <a href="{% url "landing_index" %}" class="brand-logo">
+                <img border="0" alt="Draumórar" src="{% static "images/sitelogo3.png" %}" width="135px" ">
+            </a>
+            <a href="#" data-target="mobile-dropdown" class="sidenav-trigger">
+                <i class="material-icons black-text">menu</i>
+            </a>
 
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a class="indigo-text" href="{% url "orlitamedferd_index" %}">ÖRLITAMEÐFERÐ</a></li>
-            <li><a class="indigo-text" href="{% url "dermatude_index" %}">DERMATUDE</a></li>
-            <li><a class="indigo-text" href="{% url "plasmapen_index" %}">PLASMA PEN </a></li>
-            <li><a class="indigo-text" href="{% url "verdskra_index" %}">VERÐSKRÁ</a></li>
-            <li><a class="indigo-text" href="{% url "bokun_index" %}">PANTA TÍMA</a></li>
-        </ul>
-
-    </div>
-</nav>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a class="indigo-text" href="{% url "orlitamedferd_index" %}">ÖRLITAMEÐFERÐ</a></li>
+                <li><a class="indigo-text" href="{% url "dermatude_index" %}">DERMATUDE</a></li>
+                <li><a class="indigo-text" href="{% url "plasmapen_index" %}">PLASMA PEN </a></li>
+                <li><a class="indigo-text" href="{% url "verdskra_index" %}">VERÐSKRÁ</a></li>
+                <li><a class="indigo-text" href="{% url "bokun_index" %}">PANTA TÍMA</a></li>
+            </ul>
+        </div>
+    </nav>
 </div>
 
 
@@ -28,7 +29,7 @@
         <li class="pink lighten-3"><a class="white-text" href="{% url "landing_index" %}">HEIM</a></li>
         <div class="seperator"></div>
         <li><a href="{% url "bokun_index" %}">PANTA TÍMA</a></li>
-        <div class="seperator"></div>
+        <hr ></hr>
 
 
         <li class="indent-links"><a href="{% url "orlitamedferd_index" %}">ÖRLITAMEÐFERÐ</a></li>
